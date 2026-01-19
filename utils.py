@@ -8,3 +8,11 @@ def validate_date(date_str):
         return True
     except ValueError:
         return False
+
+
+def validate_number(value):
+    try:
+        float(value)
+        return True
+    except ValueError:
+        return False
