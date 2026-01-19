@@ -12,3 +12,12 @@ class WeatherRecord:
             "temperature": self.temperature,
             "humidity": self.humidity
         }
+
+    @staticmethod
+    def from_dict(data):
+        return WeatherRecord(
+            data["date"],
+            data["city"],
+            data["temperature"],
+            data["humidity"]
+        )
