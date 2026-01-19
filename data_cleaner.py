@@ -7,10 +7,12 @@ def clean_weather_data(raw_records):
         if (
             validate_date(r["date"])
             and validate_number(r["temperature"])
+            and validate_number(r["humidity"])
         ):
             cleaned.append({
                 "date": r["date"],
                 "city": r["city"],
-                "temperature": float(r["temperature"])
+                "temperature": (r["temperature"]),
+                "humidity": (r["humidity"])
             })
     return cleaned
