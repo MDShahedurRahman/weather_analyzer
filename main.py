@@ -6,6 +6,7 @@ from report import summary_report, print_report
 
 def main():
     raw = load_weather_data()
+    cleaned = clean_weather_data(raw)
 
 
 if __name__ == "__main__":
