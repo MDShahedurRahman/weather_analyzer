@@ -9,6 +9,7 @@ def main():
     cleaned = clean_weather_data(raw)
     city_data = filter_by_city(cleaned, "New York")
     report = summary_report(city_data)
+    print_report(report)
 
 
 if __name__ == "__main__":
