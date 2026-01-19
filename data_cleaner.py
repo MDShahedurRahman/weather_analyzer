@@ -12,7 +12,7 @@ def clean_weather_data(raw_records):
             cleaned.append({
                 "date": r["date"],
                 "city": r["city"],
-                "temperature": (r["temperature"]),
-                "humidity": (r["humidity"])
+                "temperature": float(r["temperature"]),
+                "humidity": float(r["humidity"])
             })
     return cleaned
