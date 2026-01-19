@@ -8,3 +8,9 @@ def max_temperature(records):
     if not records:
         return None
     return max(r["temperature"] for r in records)
+
+
+def min_temperature(records):
+    if not records:
+        return None
+    return min(r["temperature"] for r in records)
