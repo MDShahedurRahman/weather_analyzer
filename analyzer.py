@@ -18,3 +18,7 @@ def min_temperature(records):
 
 def filter_by_city(records, city):
     return [r for r in records if r["city"].lower() == city.lower()]
+
+
+def filter_by_date(records, date):
+    return [r for r in records if r["date"] == date]
