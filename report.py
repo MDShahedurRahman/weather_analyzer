@@ -8,3 +8,12 @@ def summary_report(records):
         "min_temp": min_temperature(records),
         "total_records": len(records)
     }
+
+
+def print_report(report):
+    print("Weather Summary Report")
+    print("----------------------")
+    print(f"Average Temp: {report['average_temp']}")
+    print(f"Max Temp: {report['max_temp']}")
+    print(f"Min Temp: {report['min_temp']}")
+    print(f"Records: {report['total_records']}")
