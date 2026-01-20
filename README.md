@@ -47,3 +47,18 @@ and showcasing structured Git commit history.
 -   No third-party libraries required
 
 ------------------------------------------------------------------------
+
+## Input Data Format
+
+The application expects a CSV file named `weather_data.csv` in the
+project root directory.
+
+Example:
+
+    date,city,temperature,humidity
+    2026-01-01,New York,5.2,60
+    2026-01-02,New York,6.1,58
+    2026-01-01,Boston,3.8,65
+
+Constraints: - Date format: `YYYY-MM-DD` - Temperature and humidity must
+be numeric values
