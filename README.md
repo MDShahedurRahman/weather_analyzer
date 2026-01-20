@@ -106,3 +106,19 @@ be numeric values
 -   Keep functions small and testable
 -   Enable meaningful incremental Git commits
 -   Use standard Python libraries only
+
+------------------------------------------------------------------------
+
+## Possible Enhancements
+
+-   Add unit tests
+-   Accept command-line arguments
+-   Export reports to JSON or CSV
+-   Integrate Pandas or Spark for large datasets
+-   Extend analysis to time-series trends
+
+------------------------------------------------------------------------
+
+## License
+
+This project is intended for educational and demonstration purposes.
