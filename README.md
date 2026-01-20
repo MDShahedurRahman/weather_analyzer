@@ -62,3 +62,26 @@ Example:
 
 Constraints: - Date format: `YYYY-MM-DD` - Temperature and humidity must
 be numeric values
+
+------------------------------------------------------------------------
+
+## How to Run
+
+1.  Clone the repository:
+
+    ``` bash
+    git clone <repository-url>
+    ```
+
+2.  Navigate to the project directory:
+
+    ``` bash
+    cd weather_analyzer
+    ```
+
+3.  Add `weather_data.csv` to the project root.
+
+4.  Run the application:
+
+    ``` bash
+    python main.py
