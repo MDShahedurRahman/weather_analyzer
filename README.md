@@ -85,3 +85,24 @@ be numeric values
 
     ``` bash
     python main.py
+    ```
+
+------------------------------------------------------------------------
+
+## Sample Output
+
+    Weather Summary Report
+    ----------------------
+    Average Temp: 6.3
+    Max Temp: 9.1
+    Min Temp: 2.8
+    Records: 10
+
+------------------------------------------------------------------------
+
+## Design Goals
+
+-   Maintain clean separation of concerns
+-   Keep functions small and testable
+-   Enable meaningful incremental Git commits
+-   Use standard Python libraries only
